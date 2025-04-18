@@ -1,5 +1,5 @@
 #importação de funções específica do módulo calc.py
-from calc import somar, subtrair
+from rascunho import somar, subtrair
 #solicitando valores ao usuário
 valor1 = input("Digite um valor: ")
 valor2 = input("Digite outro valor: ")
