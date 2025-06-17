@@ -1,1 +1,61 @@
+/* Navbar */
+
+.navbar-nav .nav-item .nav-link .link-anos-anteriores{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hovers*/
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+.link-anos-anteriores {
+    text-decoration: none;  
+    color: inherit;  
+}
+
+.link-anos-anteriores:hover {
+    color: #000102;  
+    text-decoration: underline;  
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+.printer {
+  transition: all 0.3s ease;
+}
+
+.printer:hover {
+  content: url('../images/printerblack.png');
+}
+
+
+/* icones */
+
+.icone {
+  transition: all 0.3s ease;
+}
+
+.icone:hover {
+  content: url('../images/eye.png');
+}
+
+.plus {
+  transition: all 0.3s ease;
+}
+
+.plus:hover {
+  content: url('../images/plus.png');
+}
+
+/* BGs cinza */
+
+.bg-cinza {
+    background-color: #cfcfcf;
+}
+
+.bg-cinza-claro {
+    background-color: #eeeeee !important;
+}
 
