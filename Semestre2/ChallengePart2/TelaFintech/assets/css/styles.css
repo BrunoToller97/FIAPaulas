@@ -33,3 +33,7 @@
 .info:hover {
   content: url('../images/info2.png');
 }
+
+.footer a {
+  text-decoration: none !important;
+}
